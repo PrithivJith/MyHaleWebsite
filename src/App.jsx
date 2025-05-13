@@ -97,9 +97,9 @@ function App() {
       <div>
         <div className="content">
           <Routes>
-            <Route path="/MyHaleWebsite/" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route
-              path="/MyHaleWebsite/info"
+              path="/info"
               element={
                 <Info
                   formData={formData}
@@ -109,7 +109,7 @@ function App() {
               }
             />
             <Route
-              path="/MyHaleWebsite/response"
+              path="/response"
               element={
                 <Response
                   type={formData.treatment}

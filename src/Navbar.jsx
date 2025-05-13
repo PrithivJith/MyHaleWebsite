@@ -14,25 +14,25 @@ function Navbar() {
   return (
     <div className="nav-component">
       <nav>
-        <Link to="/MyHaleWebsite/">
+        <Link to="/">
           <img
             className="icon"
-            src={(location.pathname === "/MyHaleWebsite/" ? aHomeLogo : HomeLogo)}
+            src={(location.pathname === "/" ? aHomeLogo : HomeLogo)}
           />
         </Link>
 
-        <Link to="/MyHaleWebsite/info">
+        <Link to="/info">
           <img
             className="icon"
-            src={(location.pathname === "/MyHaleWebsite/info" ? aInfoLogo : InfoLogo)}
+            src={(location.pathname === "/info" ? aInfoLogo : InfoLogo)}
           />
         </Link>
 
-        <Link to="/MyHaleWebsite/response">
+        <Link to="/response">
           <img
             className="icon"
             src={
-              (location.pathname === "/MyHaleWebsite/response" ? aResponseLogo : ResponseLogo)
+              (location.pathname === "/response" ? aResponseLogo : ResponseLogo)
             }
           />
         </Link>
