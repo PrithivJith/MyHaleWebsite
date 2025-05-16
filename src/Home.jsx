@@ -30,7 +30,7 @@ function Home() {
         <br />
         <br />
       </div>
-        <p>By Prithiv Jith Shiva deep</p>
+        <p><i>By Prithiv Jith Shiva Deep</i></p>
     </div>
   );
 }
