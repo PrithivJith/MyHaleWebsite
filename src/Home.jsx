@@ -29,8 +29,8 @@ function Home() {
         </p>
         <br />
         <br />
-        <p>By Prithiv Jith Shiva deep</p>
       </div>
+        <p>By Prithiv Jith Shiva deep</p>
     </div>
   );
 }
