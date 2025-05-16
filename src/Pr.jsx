@@ -122,7 +122,7 @@ function Pr({ formData, setFormData, handleChange }) {
               </p>
             </li>
           </ul>
-          <h4>Signs my I am using my inhalers propperly</h4>
+          <h4>Signs that I am using my inhalers propperly</h4>
           <ul>
             <li>
               <p>I have no night-time symptoms or few day-time symptoms</p>
