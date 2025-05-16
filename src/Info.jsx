@@ -90,7 +90,7 @@ function Info({ formData, setFormData, save }) {
             <Checkbox
               checked={formData.triggers.mold}
               name="mold"
-              label="Mold"
+              label="Mould"
               onChange={handleCheckboxChange}
             />
             <Input
