@@ -27,6 +27,9 @@ function Home() {
           your asthma care. Do not ignore or delay seeking medical advice based
           on information from this app.
         </p>
+        <br />
+        <br />
+        <p>By Prithiv Jith Shiva deep</p>
       </div>
     </div>
   );
